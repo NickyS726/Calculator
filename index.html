@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="calculator_container"> 
+        <div id="output"></div>
+        <div id="button_container">
+            <div class = "calculator-button" onclick="addNum(1)">1</div>
+            <div class = "calculator-button" onclick="addNum(2)">2</div>
+            <div class = "calculator-button" onclick="addNum(3)">3</div>
+            <div class = "calculator-button" onclick="addSymbol('÷')">÷</div>
+            <div class = "calculator-button" onclick="addNum(4)">4</div>
+            <div class = "calculator-button" onclick="addNum(5)">5</div>
+            <div class = "calculator-button" onclick="addNum(6)">6</div>
+            <div class = "calculator-button" onclick="addSymbol('×')">×</div>
+            <div class = "calculator-button" onclick="addNum(7)">7</div>
+            <div class = "calculator-button" onclick="addNum(8)">8</div>
+            <div class = "calculator-button" onclick="addNum(9)">9</div>
+            <div class = "calculator-button" onclick="addSymbol('-')">-</div>
+            <div class = "calculator-button" onclick="addNum(0)">0</div>
+            <div class = "calculator-button" onclick="clearText()">C</div>
+            <div class = "calculator-button"onclick="addSymbol('+')">+</div>
+            <div class = "calculator-button" onclick="calculation()">=</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
